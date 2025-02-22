@@ -1,6 +1,8 @@
 # A Poor Man's Subfigure for REVTeX
 
-A subfigure package that works with REVTeX.
+A subfigure package that works with REVTeX. See also [my blog
+post](https://protagon.space/2025/02/subfigures-in-revtex/) on the
+matter.
 
 ## Installation
 
@@ -34,7 +36,9 @@ To use, simply put the
 Total nonsense, but I couldn't think of anything better to demonstrate
 Figure \ref{subfig:descriptive-label} and \ref{subfig:another-descriptive-label}.
 
-This produces the below result...
 ```
 
+This produces the below result...
 ![The resulting figure](.resources/screenshot.png)
+ … and references in the text look like
+![inline references](.resources/inline.png)
